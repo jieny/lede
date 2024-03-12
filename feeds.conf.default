@@ -9,4 +9,7 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
 
-src-git smpackage https://github.com/jieny/small-package;main20240311
+# src-git smpackage https://github.com/jieny/small-package;main20240311
+
+src-git passwall https://github.com/jieny/openwrt-passwall.git;main20231127
+src-git passwall_packages https://github.com/jieny/openwrt-passwall-packages.git;main20231127
